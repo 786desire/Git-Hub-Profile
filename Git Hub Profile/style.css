@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Oswald", sans-serif;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.search{
+    display: flex;
+    width: 50%;
+}
+.search input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.primaryBtn{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 1rem 0.5rem;
+}
+.primaryBtn:hover{
+    background-color: rgb(105, 7, 105);
+}
+.primaryBtn:active{
+    background-color: rgb(219, 100, 219);
+}
+
+
+/* for card */
+.profileBox{
+    width: 59%;
+    max-width: 60%;
+    padding: 4rem 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background-color: gray;
+    border-radius: 5rem;
+}
+.profileBox:hover{
+    transform: rotate(-3deg);
+    transition: all 2s ease-in-out;
+}
+.topSectionn{
+    display: flex;
+    justify-content: space-between;
+}
+.topSectionn button{
+    align-self: center;
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.self h1{
+    font-size: 2rem;
+}
+.avatar{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.avatar img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.about{
+    margin: 2rem;
+}
+.status{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
